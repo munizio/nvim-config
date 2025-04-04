@@ -1,6 +1,0 @@
-require("options")
-require("plug")
-require("plugin-config")
-require("lsp-config")
-require("keybindings")
-require("colors")
