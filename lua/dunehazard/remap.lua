@@ -34,3 +34,5 @@ vim.keymap.set("n", "<leader>x", "<cmd>!chmod +x %<CR>", { silent = true })
 
 vim.keymap.set("n", "<C-w>M", "<C-w>_<C-w><Bar>")
 vim.keymap.set("n", "<C-w>m", "<C-w>=")
+
+vim.keymap.set("n", "<C-f>", "<cmd>silent !tmux neww tmux-sessionizer<CR>")
